@@ -7,7 +7,8 @@ html {
 
 #content {
     background-color: white;
-    max-width : 100vh;
+    width : 600px;
+    height : 1080px;
 
 
 }
@@ -33,17 +34,34 @@ html {
     font-size : medium;
     max-width : 600px;
     padding : 0 4%;
-    margin-left : auto;
-    margin-right : auto;
-
+    margin : auto;
+    align-content: center;
+    mso-cellspacing: 0;
 }
 
-
-#table1.thead {
-    border-bottom: 5px antiquewhite solid;
-
+#table3 {
+    border:1px solid gray;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color : lightskyblue;
+    font-size : medium;
+    max-width : 600px;
+    padding : 0 4%;
+    margin : auto;
+    align-content: center;
 }
 
+td {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px antiquewhite solid;
+}
+
+th{
+    border-bottom : 2px antiquewhite solid;
+
+}
 
 
 #page {
@@ -71,7 +89,7 @@ html {
 }
 
 #sample2 {
-    border : 5px coral outset;
+    border : 3px coral outset;
     border-radius : 5px;
     color : lightskyblue;
     font-size : medium;
