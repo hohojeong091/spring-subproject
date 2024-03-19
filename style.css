@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+html {
+    background-color : antiquewhite;
+    font-size : 100% ;
+}
+
+#content {
+    background-color: white;
+    max-width : 100vh;
+
+
+}
+
+#top {
+    background-color: white;
+    border-bottom : 1px antiquewhite solid;
+    margin-left : 20px;
+    align-content: center;
+    font-size : 0.9rem ;
+
+}
+
+#tableName1 {
+    color : lightskyblue;
+    margin-left : 30px;
+    font-size : 0.8rem;
+}
+
+
+#table1 {
+    color : lightskyblue;
+    font-size : medium;
+    max-width : 600px;
+    padding : 0 4%;
+    margin-left : auto;
+    margin-right : auto;
+
+}
+
+
+#table1.thead {
+    border-bottom: 5px antiquewhite solid;
+
+}
+
+
+
+#page {
+    text-align : center;
+
+}
+
+#buttonDel {
+    display : flex ;
+    font-size : 1.25rem;
+    top : 0;
+    padding : 5px
+}
+
+#buttonLog {
+    display : flex ;
+    font-size : 1.25rem;
+    padding : 5px
+}
+
+#tableName2 {
+    color : lightskyblue;
+    margin-left : 30px;
+    font-size : 0.8rem;
+}
+
+#sample2 {
+    border : 5px coral outset;
+    border-radius : 5px;
+    color : lightskyblue;
+    font-size : medium;
+    display : flex;
+    max-width : 600px;
+    margin : 0 auto;
+    padding : 0 4%;
+
+
+
+}
+
+#page1 {
+    text-align : center;
+
+}
